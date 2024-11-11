@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: solid 1px black;
+    max-width: 100%;
+    height: 90px;
+    background-color: #00E6E6;
+    margin: 15px;
+}
+
+nav {
+    border: solid 1px black;
+    max-width: 100%;
+    height: 40px;
+    background-color: #FF6666;
+    margin: 15px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 90%;
+    margin: auto;
+}
+
+section > div {
+    border: 1px solid black;
+	background-color: #E356D8;
+	margin: 15px;
+    width: 20%;
+    height: 140px;
+
+    flex-grow: 1;
+}
+
+section > div + div {
+    flex-grow: 4;
+}
+
+section > div + div + div {
+    flex-grow: 1;
+}
