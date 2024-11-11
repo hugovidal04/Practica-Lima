@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Tipos de input</title>
+		<style>
+			td,th{
+				padding:5px;
+				text-align:center;
+			}
+			caption{
+				font-size:14pt;
+			}
+		</style>
+	</head>
+	<body>
+		
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
