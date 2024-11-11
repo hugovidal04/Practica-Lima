@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: felx;
+    justify-content: baseline;
+    align-items: baseline;
+    border: solid 1px black;
+    width: 50%;
+    background: linear-gradient(to right, red, magenta, cyan, yellow);
+    min-height: 40px;
+}
+
+ul li {
+    display: inline;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    color: black;
+}
+
+ul li ul {
+    display: none;
+    position: absolute;
+    border: solid 1px black;
+}
+
+ul li:hover > ul{
+    margin-top: 2px;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+ul li ul li:hover {
+    background-color: blue;
+}
+
+nav li {
+    float: left;
+}
+
+h4 {
+    margin: 25px 0;
+}
