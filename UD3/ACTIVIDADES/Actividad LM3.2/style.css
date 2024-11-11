@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    border: solid 1px black;
+    display: flex;
+}
+a {
+    border: solid 1px black;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+a:first-child {
+    background-color: red;
+}
+a:nth-child(2) {
+    background-color: cyan;
+}
+a:nth-child(3) {
+    background-color: lime;
+}
+a:nth-child(4) {
+    background-color: yellow;
+}
+a:hover {
+    background-color: blue;
+    color: pink;
+}
+a:active {
+    background-color: pink;
+    color: blue;
+}
+a:visited {
+    color: gray;
+}
