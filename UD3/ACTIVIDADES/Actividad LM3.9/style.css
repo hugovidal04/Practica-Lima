@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 body {
@@ -140,26 +139,31 @@ footer a {
     border: 1px solid black; 
     margin: 10px;
     padding: auto;
+    border-radius: 15px;
 }
 
 .general img {
-    margin: 10px 10px;
+    max-width: 95%;
+    margin: 10px;
 }
 
 .general video {
-    margin: 10px 10px;
+    margin: 10px;
 }
 
-.general iframe {
-    margin: 10px 10px;
+.web iframe {
+    margin: 10px;
+    width: auto;
+    height: 400px;
+
 }
 
 .general p {
-    margin: 10px 10px;
+    margin: 10px;
 }
 
 .general h4 {
-    margin: 10px 10px;
+    margin: 10px;
 }
 
 .general h1 {
@@ -179,13 +183,33 @@ footer a {
         flex-direction: row;
     }
 
-    .webSer .webHab {
+    .web video {
+        max-width: 50%;
+    }
+
+    .webHab img{
+        width: 40%;
+        max-height: 10%;
+    }
+
+    .web iframe {
+        width: 50%;
+        margin: 10px;
+    }
+    
+    .webHab {
         display: flex;
         flex-direction: row;
     }
 
-    .webHab img {
-        max-width: 50%;
-        height: auto;
+    .webHab div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 20px;
+        margin-right: auto;
     }
 }
+
+
+
