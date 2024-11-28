@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="Material adicional/img/logo.png" alt="">
+        </div>
+        <div class="menuIni">
+            <a href="index.html">Inicio</a>
+            <a href="informacion.html">Información</a>
+            <a href="#">Reservas</a>
+        </div>
+    </nav>
+    <header>
+        <div class="contacto">
+            <h1>Contacto</h1>
+            <p>Rellene el siguiente formulario y nos pondremos en contacto con usted a la mayor brevedad posible</p>
+        </div>
+        <div class="formu">
+            <form action="reception.html" method="post" enctype="multipart/form-data">
+                <p>Nombre*:</p>
+                <input type="text" name="nombre" required>
+                <p>Apellidos</p>
+                <input type="text" name="apellidos">
+                <p>Correo electrónico*:</p>
+                <input type="email" required>
+                <p>Teléfono*:</p>
+                <input type="number" required>
+                <p>Motivo de la consulta*:</p>
+                <textarea name="motivo" id="" cols="30" rows="10"></textarea>
+                <input type="reset" value="Borrar datos">
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </header>
+    <footer>
+        <a href="contacto.html">Contacto</a>
+        <a href="#">Diseño de interfaces Web</a>
+        <a href="#">FAQ</a>
+    </footer>
+</body>
+</html>
