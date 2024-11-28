@@ -1,6 +1,8 @@
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -234,11 +236,10 @@ p, input, textarea {
     text-align: center;
 }
 
-input, textarea, .botones {
+input, textarea {
     width: 100%; 
-    max-width: 500px; 
     margin: 10px auto; 
-    box-sizing: border-box; 
+    padding: 10px 20px;
 }
 
 .botones {
@@ -247,22 +248,14 @@ input, textarea, .botones {
     gap: 10px; 
 }
 
-.botones2 {
-    
+.botones2 {  
     padding: 10px 20px;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: #f0f0f0;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.botones2:hover {
-    background-color: #d0d0d0;
 }
 
 @media (min-width: 768px) {
-    input, textarea, .botones {
-        width: 100%; 
+
+    input, textarea {
+        padding: 10px 190px;
     }
+    
 }
