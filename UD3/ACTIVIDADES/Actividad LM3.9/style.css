@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background:
+	radial-gradient(#d6d6d6 3px, transparent 4px),
+	radial-gradient(#d6d6d6 3px, transparent 4px),
+	linear-gradient(#fff 4px, transparent 0),
+	linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+	linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+	#fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+
+nav {
+    background-color: #2f3330;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+nav img {
+    width: 100%;
+    height: auto;
+}
+
+.menuIni {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    margin: 10px;
+    margin-top: 0;
+    border-radius: 15px;
+}
+
+.menuIni a {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 15px 0px;
+    text-decoration: none;
+    color: white;
+}
+
+.menuIni a:hover {
+    background-color: black;
+    border-radius: 15px;
+}
+
+.headerIndex {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.headerIndex h1 {
+    margin: 10px;
+}
+
+.headerIndex img {
+    border-radius: 15px;
+    margin: 10px;
+    justify-content: center;
+}
+
+footer {
+    background-color: black;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+footer a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    padding: 15px 0;
+}
+
+@media (min-width: 768px) {
+    nav {
+        background-image: url("Material adicional/img/cabecera.png");
+        background-repeat: repeat;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menuIni {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: auto;
+        margin-right: 0;
+        opacity: 0.5;
+        border-radius: 15px 0;
+    }
+
+    .headerIndex img {
+        border-radius: 15px;
+        margin: 10px 15%;
+        justify-content: center;
+    }
+
+    .headerIndex h1 {
+        margin: auto;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        margin: 10px;
+        border-radius: 15px;
+    }
+
+    footer a {
+        color: white;
+        height: auto;
+        width: 100%;
+    }
+
+    footer a:hover {
+        background-color: red;
+        border-radius: 15px;
+    }
+}
+
+.general {
+    border: 1px solid black; 
+    margin: 10px;
+    padding: auto;
+    border-radius: 15px;
+}
+
+.general img {
+    max-width: 95%;
+    margin: 10px;
+}
+
+.general video {
+    margin: 10px;
+}
+
+.web iframe {
+    margin: 10px;
+    width: auto;
+    height: 400px;
+
+}
+
+.general p {
+    margin: 10px;
+}
+
+.general h4 {
+    margin: 10px;
+}
+
+.general h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.web {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .web {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .web video {
+        max-width: 50%;
+    }
+
+    .webHab img{
+        width: 40%;
+        max-height: 10%;
+    }
+
+    .web iframe {
+        width: 50%;
+        margin: 10px;
+    }
+    
+    .webHab {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .webHab div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 20px;
+        margin-right: auto;
+    }
+}
+
+.contacto {
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formu {
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p, input, textarea {
+    margin: 10px;
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%; 
+    margin: 10px auto; 
+    padding: 10px 20px;
+}
+
+.botones {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 10px; 
+}
+
+.botones2 {
+    padding: 10px 20px;
+}
+
+@media (min-width: 768px) {
+
+    input, textarea {
+        padding: 10px 190px;
+    }
+}
+
+
