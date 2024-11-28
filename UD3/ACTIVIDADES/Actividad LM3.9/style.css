@@ -211,5 +211,58 @@ footer a {
     }
 }
 
+.contacto {
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.formu {
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+p, input, textarea {
+    margin: 10px;
+    text-align: center;
+}
+
+input, textarea, .botones {
+    width: 100%; 
+    max-width: 500px; 
+    margin: 10px auto; 
+    box-sizing: border-box; 
+}
+
+.botones {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 10px; 
+}
+
+.botones2 {
+    
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botones2:hover {
+    background-color: #d0d0d0;
+}
+
+@media (min-width: 768px) {
+    input, textarea, .botones {
+        width: 100%; 
+    }
+}
