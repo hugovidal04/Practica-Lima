@@ -1,3 +1,10 @@
+:root {
+    --a: #2f3330;
+    --b: #dbdbdb;
+    --c: #adf7ef;
+    --d: #ffffff;
+    --e: #fffff0;
+}
 
 * {
     margin: 0;
@@ -18,7 +25,7 @@ body {
 }
 
 nav {
-    background-color: #2f3330;
+    background-color: rgba(47, 51, 48, 0.7); /*Para que la opacidad no afecte a otros objetos*/
     max-width: 100%;
     height: auto;
     border-radius: 15px;
@@ -34,7 +41,7 @@ nav img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: red;
+    background-color: var(--a);
     margin: 10px;
     margin-top: 0;
     border-radius: 15px;
@@ -46,11 +53,12 @@ nav img {
     justify-content: center;
     padding: 15px 0px;
     text-decoration: none;
-    color: white;
+    color: var(--d);
 }
 
 .menuIni a:hover {
-    background-color: black;
+    background-color: var(--b);
+    opacity: 0.5;
     border-radius: 15px;
 }
 
@@ -60,10 +68,12 @@ nav img {
     border: 1px solid black;
     border-radius: 15px;
     margin: 10px;
+    background-color: rgba(255, 255, 255, 0.7);    
 }
 
 .headerIndex h1 {
-    margin: 10px;
+    margin: 20px;
+    text-align: center;
 }
 
 .headerIndex img {
@@ -73,7 +83,7 @@ nav img {
 }
 
 footer {
-    background-color: black;
+    background-color: var(--a);
     margin: 10px;
     border-radius: 15px;
 }
@@ -82,9 +92,15 @@ footer a {
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    color: white;
+    color: var(--d);
     align-items: center;
     padding: 15px 0;
+}
+
+footer a:hover {
+    background-color: var(--b);
+    border-radius: 15px;
+    opacity: 0.5;
 }
 
 @media (min-width: 768px) {
@@ -114,26 +130,21 @@ footer a {
     }
 
     .headerIndex h1 {
-        margin: auto;
+        margin: 20px auto;
     }
 
     footer {
         display: flex;
         flex-direction: row;
-        background-color: black;
+        background-color: var(--a);
         margin: 10px;
         border-radius: 15px;
     }
 
     footer a {
-        color: white;
+        color: var(--d);
         height: auto;
         width: 100%;
-    }
-
-    footer a:hover {
-        background-color: red;
-        border-radius: 15px;
     }
 }
 
@@ -145,27 +156,35 @@ footer a {
 }
 
 .general img {
-    max-width: 95%;
+    max-width: 75%;
     margin: 10px;
+    margin-left: 70px;
 }
 
 .general video {
+    max-width: 75%;
     margin: 10px;
+    margin-left: 70px;
 }
 
 .web iframe {
+    max-width: 75%;
     margin: 10px;
     width: auto;
     height: 400px;
-
+    margin-left: 70px;
 }
 
 .general p {
+    text-align: left;
     margin: 10px;
+    margin-left: 70px;
 }
 
 .general h4 {
     margin: 10px;
+    margin-left: 70px;
+
 }
 
 .general h1 {
@@ -220,6 +239,7 @@ footer a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 30px;
 }
 
 .formu {
@@ -240,6 +260,11 @@ input, textarea {
     width: 100%; 
     margin: 10px auto; 
     padding: 10px 20px;
+    background-color: var(--b);
+}
+
+input:hover, textarea:hover {
+    background-color: var(--c);
 }
 
 .botones {
@@ -250,14 +275,12 @@ input, textarea {
 
 .botones2 {  
     padding: 10px 20px;
+    background-color: var(--b);
 }
 
 @media (min-width: 768px) {
 
     input, textarea {
         padding: 10px 190px;
-    }
-
-    
-    
+    }    
 }
