@@ -54,12 +54,47 @@ nav img {
     padding: 15px 0px;
     text-decoration: none;
     color: var(--d);
+    
 }
 
 .menuIni a:hover {
     background-color: var(--b);
     opacity: 0.5;
     border-radius: 15px;
+    text-decoration: underline white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.menu {
+    position: relative; 
+    width: 100%;
+}
+
+.menu-button {
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+}
+
+.desplegable {
+    display: none;
+    position: absolute; 
+    top: 100%; 
+}
+
+.desplegable a {
+    padding: 10px 20px; 
+    text-decoration: none; 
+    color: black; 
+    background-color: var(--b);
+}
+
+.menu:hover .desplegable {
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--b); 
 }
 
 .headerIndex {
