@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<title>Mis cuentas</title>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" href="imagenes/favicon.svg">
+	</head>
+	<body>
+		<header>
+			<div>
+				<img src="imagenes/logo.svg"/>
+			</div>
+			<div>
+				<img src="imagenes/usuario.svg"/>
+				<p>Bienvenido, Mister Marshall</p>
+			</div>
+		</header>
+		<nav>
+			<div>
+				<div>
+					<a href="cuentas.html">Mis cuentas</a>
+					<div></div>
+				</div>
+				<div>
+					<a href="#">Movimientos</a>
+				</div>
+				<div>
+					<a href="transferencias.html">Transferencias</a>
+				</div>
+			</div>
+		</nav>
+		<section>
+			<article class="cabeceraSeccion">
+				<h2>Mis cuentas</h2>
+				<a class="boton" href="#">Añadir cuenta</a>
+			</article>
+			<article class="tablaCuentas">
+				<div class="cabeceraTabla">
+					<div><p>IBAN</p></div>
+					<div><p>ALIAS</p></div>
+					<div><p>SALDO DISPONIBLE</p></div>
+					<div><p>ULTIMA OPERACIÓN</p></div>
+					<div><p>OPERACIÓN</p></div>
+				</div>
+				<div class="cuenta">
+					<div><p>ES11 1111 1111 1111 1111</p></div>
+					<div><p>Gastos mes</p></div>
+					<div><p>1490 €</p></div>
+					<div><p>11/12/2023</p></div>
+					<div>
+						<select>
+							<option value="blanco" selected="selected"></option>
+							<option value="transf">Transferencias</option>
+							<option value="movim">Movimientos</option>
+						</select>
+					</div>
+				</div>
+				<div class="cuenta">
+					<div><p>ES22 2222 2222 2222 2222</p></div>
+					<div><p>Compartida</p></div>
+					<div><p>2480 €</p></div>
+					<div><p>25/12/2022</p></div>
+					<div>
+						<select>
+							<option value="blanco" selected="selected"></option>
+							<option value="transf">Transferencias</option>
+							<option value="movim">Movimientos</option>
+						</select>
+					</div>
+				</div>
+				<div class="cuenta">
+					<div><p>ES33 3333 3333 3333 3333</p></div>
+					<div><p>Ahorro</p></div>
+					<div><p>8500 €</p></div>
+					<div><p>18/06/2023</p></div>
+					<div>
+						<select>
+							<option value="blanco" selected="selected"></option>
+							<option value="transf">Transferencias</option>
+							<option value="movim">Movimientos</option>
+						</select>
+					</div>
+				</div>
+			</article>
+		</section>
+		<footer>
+			<img src="imagenes/logo_footer.svg"/>
+		</footer>
+	</body>
+</html>
