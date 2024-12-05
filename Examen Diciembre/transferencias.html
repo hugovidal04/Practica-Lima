@@ -1,14 +1,83 @@
 <!DOCTYPE html>
 
 <html lang="es">
-	<head>
-		<title>Transferencias</title>
-		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="style.css">
-		<link rel="shortcut icon" href="imagenes/favicon.svg">
 
-	</head>
-	<body>
-		
-	</body>
+<head>
+	<title>Transferencias</title>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="imagenes/favicon.svg">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+		<div>
+			<img src="imagenes/logo.svg" alt="">
+		</div>
+		<div>
+			<img src="imagenes/usuario.svg" alt="">
+			<p class="pHeader">Bienvenido, Mister Marshall</p>
+		</div>
+	</header>
+	<nav>
+		<a href="cuentas.html">Mis cuentas</a>
+		<a href="">Movimientos</a>
+		<a href="transferencias.html">Transferencias</a>
+	</nav>
+	<section class="sectionTrans">
+		<h2>Transferencias nacionales</h2>
+		<hr class="linea">
+		<div>
+			<p>Cuenta origen (IBAN):</p>
+			<select class="options" name="" id="">
+				<option value="">Gastos mes</option>
+				<option value="">Compartida</option>
+				<option value="">Ahorro</option>
+			</select>
+		</div>
+		<div>
+			<p>Cuenta destino (IBAN):</p>
+			<input type="text">
+		</div>
+		<div>
+			<p>Beneficiario:</p>
+			<input type="text">
+		</div>
+		<div>
+			<p>Importe (EUR):</p>
+			<input type="text">
+		</div>
+		<div>
+			<p>Concepto:</p>
+			<input type="text">
+		</div>
+		<div>
+			<p>Observaciones:</p>
+			<input type="text">
+		</div>
+		<hr>
+		<p>Para que la transferencia se realice en otra fecha diferente a
+			hoy, por favor, indiquenos la fecha de ejecución:</p>
+		<div>
+			<p>Fecha de ejecución:</p>
+			<input class="excepcion" type="date">
+		</div>
+
+		<hr>
+		<p>Escriba una dirección de email para dar aviso al beneficiario:</p>
+		<div>
+			<p>Email del beneficiario</p>
+			<input type="text">
+		</div>
+		<hr>
+		<div class="boton">
+			<button type="submit">Realizar transferencia</button>
+		</div>
+	</section>
+	<footer>
+		<img src="imagenes/logo_footer.svg" alt="">
+	</footer>
+</body>
+
 </html>

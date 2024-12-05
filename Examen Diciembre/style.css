@@ -1,0 +1,247 @@
+:root {
+    --azulClaro: #3DC4CA;
+    --azulOscuro: #252B3B;
+    --grisOscuro: #CCCCCC;
+    --grisClaro: #EEEEEE;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: 160px;
+    background-color: var(--azulClaro);
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+header p, img {
+    max-height: 120px;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: var(--azulOscuro);
+    height: 30px;
+}
+
+nav a {
+    color: white;
+    padding: 5px 10px;
+}
+
+nav a:first-child {
+    border-bottom: 3px solid var(--azulClaro);
+}
+
+section .misCuentas{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px 5px 100px;
+}
+
+.misCuentas a:first-child {
+    color: black;
+    padding: 10px;
+}
+
+.misCuentas a:last-child {
+    background-color: var(--azulClaro);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.sectionCuentas hr {
+    margin: 0px 100px 10px 100px;
+    background-color: black;
+    height: 7px;
+}
+
+.sectionCuentas table {
+    margin: 0px 100px 10px 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: none;
+}
+
+table tr th, td {
+    padding: 10px 15px;
+    border: none;
+}
+
+.sectionCuentas table tr td > select {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.fila {
+    background-color: var(--grisOscuro);
+}
+
+.filaClara {
+    background-color: var(--grisClaro);
+}
+
+footer {
+    background-color: var(--azulOscuro);
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+footer img {
+    max-height: 120px;
+    margin: 10px;
+}
+
+@media (width < 768px) {
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    header div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    nav a {
+        padding: 10px 15px;
+    }
+
+    .fila {
+        display: none;
+    }
+
+    table {
+        display: flex;
+        flex-direction: column;
+    }
+
+    table tr {
+        display: flex;
+        flex-direction: column;
+        border: solid 1px black;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    } 
+
+    table tr td {
+        margin: 10px auto;
+    }
+  }
+
+
+.sectionTrans {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.sectionTrans .linea {
+    background-color: black;
+    height: 7px;
+}
+
+.sectionTrans div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionTrans select {
+    margin-right: 10%;
+    padding: 7px 110px;
+    border-radius: 10px;
+}
+
+.sectionTrans input {
+    margin-right: 10%;
+    padding: 7px 70px;
+    border-radius: 10px;
+}
+
+.sectionTrans div p, input, select {
+    margin: 20px 0;
+}
+
+.sectionTrans hr {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: auto;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: var(--azulClaro);
+    color: white;
+}
+
+@media (width < 768px) {
+    .sectionTrans {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .sectionTrans div {
+        flex-direction: column;
+    }
+
+    .sectionTrans select {
+        margin-right: 0;
+        padding: 7px 0px;
+    }
+    
+    .sectionTrans input {
+        margin-right: 0;
+        padding: 7px 0px;
+    }
+
+    .sectionTrans div p, input, select {
+        margin: 10px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
