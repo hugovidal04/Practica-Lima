@@ -17,8 +17,6 @@ h1 {
     border: solid 1px black;
     position: fixed;
     top: 0;
-    left: 50%;
-    transform: translateX(-50%);
     text-align: center;
     background-color: gray;
     color: white;
