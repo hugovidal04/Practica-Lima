@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="5.5939484mm"
+   height="5.7262516mm"
+   viewBox="0 0 5.5939484 5.7262516"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="Figuras LiMa.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="8.103396"
+     inkscape:cx="535.26941"
+     inkscape:cy="133.95618"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid545" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-131.88506,-28.389829)">
+    <ellipse
+       style="fill:none;stroke:#ff0000;stroke-width:0.17;stroke-dasharray:none;stroke-opacity:1"
+       id="path956-8-2-1-0"
+       ry="2.778125"
+       rx="2.7119792"
+       cy="31.252954"
+       cx="134.68204" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:3.18863px;line-height:1.9;font-family:Arial;-inkscape-font-specification:'Arial, Italic';fill:#ff0000;stroke-width:0.548687"
+       x="133.8636"
+       y="32.994663"
+       id="text238-1-6-6-4-5-8"
+       inkscape:export-filename="text238-1-6-6.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(0.98978546,1.01032)"><tspan
+         sodipodi:role="line"
+         id="tspan236-9-0-5-2-4-5"
+         style="fill:#ff0000;stroke-width:0.548687"
+         x="133.8636"
+         y="32.994663"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.6365px;font-family:'French Script MT';-inkscape-font-specification:'French Script MT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke-width:0.548687"
+           id="tspan292-4-3-3-4-8-5">F</tspan></tspan></text>
+  </g>
+</svg>

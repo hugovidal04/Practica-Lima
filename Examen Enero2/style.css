@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.web {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: red;
+}
+
+.web a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+.web a:hover {
+    color: black;
+}
+
+.web img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.movil {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .movil {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: red;
+    }
+
+    .movil div:nth-child(2) {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .movil img {
+        margin-top: 20px;
+        height: 50px;
+    }
+
+    .movil a {
+        text-decoration: none;
+        color: white;
+        padding: 10px 15px;
+    }
+
+    .movil a:hover {
+        color: black;
+    }
+
+    .web {
+        display: none;
+    }
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+section div {
+    display: flex;
+    overflow-x: scroll;
+}
+
+section div img {
+    margin: 0px 0px 5px 10px;
+    border-radius: 15px;
+    height: 160px;
+}
+
+section p {
+    color: white;
+    margin: 20px 0px 5px 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+footer img {
+    height: 40px;
+    margin: 20px;
+}
+
+footer p, a {
+    color: red;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer p {
+    color: white;
+}
+
+footer p {
+    margin-bottom: 80px;
+    color: gainsboro;
+}
+
+footer .textoFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    footer .textoFooter{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0px;
+    }
+}
