@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<curriculum>
+    <nombre>
+
+    </nombre>
+    <apellidos>
+
+    </apellidos>
+    <fecha_de_nacimiento>
+
+    </fecha_de_nacimiento>
+    <residencia>
+        <direccion>
+
+        </direccion>
+        <ciudad>
+
+        </ciudad>
+        <codigo_postal>
+
+        </codigo_postal>
+        <pais>
+
+        </pais>
+    </residencia>
+    <datos_de_contacto>
+        <telefono>
+
+        </telefono>
+
+        <correo_alectronico>
+
+        </correo_alectronico>
+    </datos_de_contacto>
+    <breve_descripcion_general>
+
+    </breve_descripcion_general>
+    <listado_de_competencias>
+        <nombre>
+
+        </nombre>
+        <nivel>
+
+        </nivel>
+    </listado_de_competencias>
+    <formacion_academica>
+        <titulacion>
+
+        </titulacion>
+        <centro_de_formacion>
+
+        </centro_de_formacion>
+        <anho_de_titulacion>
+
+        </anho_de_titulacion>
+    </formacion_academica>
+    <experiencia_profesional>
+        <puesto>
+
+        </puesto>
+        <empresa>
+
+        </empresa>
+        <anho_inicio>
+
+        </anho_inicio>
+        <anho_finalizacion>
+
+        </anho_finalizacion>
+    </experiencia_profesional>
+</curriculum>
