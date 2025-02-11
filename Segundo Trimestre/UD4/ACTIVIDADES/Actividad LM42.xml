@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<viaje>
+    <nombre>
+
+    </nombre>
+    <apellidos>
+
+    </apellidos>
+    <fecha>
+        <inicio>
+
+        </inicio>
+        <fin>
+
+        </fin>
+    </fecha>
+    <origen>
+
+    </origen>
+    <relacion_de_destino>
+        <nombre_ciudad>
+
+        </nombre_ciudad>
+        <nombre_hotel>
+            
+        </nombre_hotel>
+        <numero_de_noches>
+
+        </numero_de_noches>
+    </relacion_de_destino>
+    <precio>
+        
+    </precio>
+</viaje>
