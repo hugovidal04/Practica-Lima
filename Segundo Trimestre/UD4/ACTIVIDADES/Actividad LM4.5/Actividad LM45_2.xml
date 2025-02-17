@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paises 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Actividad%20LM45_2.xsd">
+    <pais>
+        <nombre>España</nombre>
+        <continente>Europa</continente>
+        <capital>Madrid</capital>
+    </pais>
+    <pais>
+        <nombre>Francia</nombre>
+        <continente>Europa</continente>
+        <capital>París</capital>
+    </pais>
+    <pais>
+        <nombre>Argentina</nombre>
+        <continente>Sudamérica</continente>
+        <capital>Buenos Aires</capital>
+    </pais>
+</paises>
