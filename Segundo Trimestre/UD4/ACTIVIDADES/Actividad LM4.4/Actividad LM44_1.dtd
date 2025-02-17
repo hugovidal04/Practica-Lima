@@ -1,0 +1,8 @@
+<!ELEMENT animales (animal)>
+<!ELEMENT animal (nombre, familia, distribuciones+)>
+<!ATTLIST animal estado CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre nombre_cientifico CDATA #REQUIRED>
+<!ELEMENT familia (#PCDATA)>
+<!ELEMENT distribuciones (distribucion+)>
+<!ELEMENT distribucion (#PCDATA)>

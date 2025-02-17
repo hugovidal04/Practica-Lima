@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE animales SYSTEM "Actividad%20LM44_1.dtd">
+<animales>
+    <animal estado="Amenazado">
+        <nombre nombre_cientifico="Monachus monachus">Foca monje</nombre>
+        <familia>Phocidae</familia>
+        <distribuciones>
+            <distribucion>Costa Atlántica</distribucion>
+            <distribucion>Costa Mediterránea</distribucion>
+        </distribuciones>
+    </animal>
+</animales>
