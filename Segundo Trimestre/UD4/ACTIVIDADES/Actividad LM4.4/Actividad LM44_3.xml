@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE famosos SYSTEM "Actividad%20LM44_3.dtd">
+<famosos> 
+    <famoso> 
+        <nombre>Michael Jackson</nombre> 
+        <apodo>El rey del pop</apodo> 
+        <profesion>cantante</profesion> 
+    </famoso> 
+    <famoso> 
+        <nombre>Frank Sinatra</nombre> 
+        <apodo>La voz</apodo> 
+        <fechaNacimiento>12-dec-1915</fechaNacimiento> 
+        <profesion>cantante</profesion> 
+        <profesion>actor</profesion> 
+    </famoso> 
+</famosos> 

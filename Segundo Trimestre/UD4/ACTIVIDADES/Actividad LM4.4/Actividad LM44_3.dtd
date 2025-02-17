@@ -1,0 +1,6 @@
+<!ELEMENT famosos (famoso+)>
+<!ELEMENT famoso (nombre, apodo,fechaNacimiento?, profesion+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apodo (#PCDATA)>
+<!ELEMENT fechaNacimiento (#PCDATA)>
+<!ELEMENT profesion (#PCDATA)>
