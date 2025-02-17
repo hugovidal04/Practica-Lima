@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<curriculum 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Actividad%20LM45.xsd">
+
+    <nombre>Hugo</nombre>
+    <apellidos>Vidal</apellidos>
+    <fecha_de_nacimiento>10-10-2000</fecha_de_nacimiento>
+    <residencia>
+        <direccion>Provins</direccion>
+        <ciudad>París</ciudad>
+        <codigo_postal>30200</codigo_postal>
+        <pais>Francia</pais>
+    </residencia>
+    <datos_de_contacto>
+        <telefono>685847878</telefono>
+        <correo_electronico>hugo@gmailcom</correo_electronico>
+    </datos_de_contacto>
+    <breve_descripcion_general>No hay</breve_descripcion_general>
+    <listado_de_competencias>
+        <nombre>Inglés</nombre>
+        <nivel>B2</nivel>
+    </listado_de_competencias>
+    <formacion_academica>
+        <titulacion>DAM</titulacion>
+        <centro_de_formacion>IES Antón Losada</centro_de_formacion>
+        <anho_de_titulacion>2015</anho_de_titulacion>
+    </formacion_academica>
+    <experiencia_profesional>
+        <puesto>Camarero</puesto>
+        <empresa>Eureka</empresa>
+        <anho_inicio>2020</anho_inicio>
+        <anho_finalizacion>2021</anho_finalizacion>
+    </experiencia_profesional>
+</curriculum>
