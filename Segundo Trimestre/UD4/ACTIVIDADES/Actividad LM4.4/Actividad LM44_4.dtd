@@ -1,0 +1,8 @@
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno (numeroExpediente, nombre, fechaNacimiento, telefono+, mujer?, hombre?)>
+<!ELEMENT numeroExpediente (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fechaNacimiento (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT mujer (#PCDATA)>
+<!ELEMENT hombre (#PCDATA)>

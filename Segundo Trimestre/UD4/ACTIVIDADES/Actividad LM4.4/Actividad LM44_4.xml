@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE alumnos SYSTEM "Actividad%20LM44_4.dtd">
+<alumnos> 
+    <alumno> 
+        <numeroExpediente>1023</numeroExpediente> 
+        <nombre>María Vázquez</nombre> 
+        <fechaNacimiento>25/04/2004</fechaNacimiento> 
+        <telefono>676767676</telefono> 
+        <telefono>999888777</telefono> 
+        <mujer /> 
+    </alumno> 
+    <alumno> 
+        <numeroExpediente>1444</numeroExpediente> 
+        <nombre>Pablo Pérez</nombre> 
+        <fechaNacimiento>10/04/2003</fechaNacimiento> 
+        <telefono>688668866</telefono> 
+        <hombre /> 
+    </alumno> 
+</alumnos>
