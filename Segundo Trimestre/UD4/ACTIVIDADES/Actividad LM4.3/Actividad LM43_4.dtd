@@ -1,0 +1,7 @@
+<!ELEMENT mundialesFutbol (mundial+)>
+<!ELEMENT mundial (anfitrion, finalistas+)>
+<!ATTLIST mundial anho CDATA #REQUIRED>
+<!ELEMENT anfitrion (#PCDATA)>
+<!ELEMENT finalistas (finalista+)>
+<!ELEMENT finalista (#PCDATA)>
+<!ATTLIST finalista ganador CDATA #REQUIRED>
