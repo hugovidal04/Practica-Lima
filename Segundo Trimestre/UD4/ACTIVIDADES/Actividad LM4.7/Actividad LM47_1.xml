@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hamburguesas
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Actividad%20LM47_1.xsd">
+    <numero_pedido>5</numero_pedido>
+    <nombre_cliente>Juan</nombre_cliente>
+    <mesa_entrega>23</mesa_entrega>
+    <fecha>12-02-2025</fecha>
+    <lista_productos tipo="complementos">
+        <nombre>Patatas</nombre>
+        <numero>3</numero>
+        <precio>2€</precio>
+    </lista_productos>
+    <lista_productos tipo="hamburguesas">
+        <nombre>Clásica</nombre>
+        <numero>1</numero>
+        <precio>7€</precio>
+    </lista_productos>
+</hamburguesas>
