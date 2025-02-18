@@ -1,0 +1,17 @@
+a) El número de mundiales que hay registrados en el XML.
+count(//mundial)
+
+b) Todos los finalistas de los mundiales (solo el texto). 
+//finalista/text()
+
+c) Todos los finalistas de los mundiales, sin que se repita ninguno (solo el texto). 
+distinct-values(//finalista/text())
+
+d) Todos los distintos ganadores de los mundiales, sin que se repita ninguno (solo el texto). 
+distinct-values(//finalista[@ganador="si"]/text())
+
+e) La diferencia en años, entre el primer mundial que hay registrado en el XML y el último. 
+//mundial[last()]/@anho - //mundial[1]/@anho
+
+f) El nombre del ganador del mundial más reciente. Ten en cuenta que en este caso están ordenados, pero podrían no estarlo.
+//mundial[@anho=max(//mundial/@anho)]//finalista[@ganador="si"]/text()
