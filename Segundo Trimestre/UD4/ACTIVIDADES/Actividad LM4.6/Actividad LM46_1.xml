@@ -2,7 +2,7 @@
  
 <biblioteca
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="Actividad%20LM46.xsd"> 
+xsi:noNamespaceSchemaLocation="Actividad%20LM46_1.xsd"> 
     <libro num_paginas="400"> 
         <titulo>Los miserables</titulo> 
         <autor>Victor Hugo</autor> 
