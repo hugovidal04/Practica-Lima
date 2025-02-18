@@ -1,0 +1,14 @@
+a) El nombre de todos los discos (solo el texto).
+/discos/disco/titulo/text()
+
+b) Cuantos discos diferentes existen.
+count(//disco)
+
+c) El total de ventas de todos los discos. 
+sum(//ventas)
+
+d) Las ventas medias del total de discos.
+avg(//ventas)
+
+e) La diferencia de años que pasaron entre el primer disco (“Homework”) y el último (“Random Access Memories”)
+/discos/disco[last()]/lanzamiento/anho - /discos/disco[1]/lanzamiento/anho
