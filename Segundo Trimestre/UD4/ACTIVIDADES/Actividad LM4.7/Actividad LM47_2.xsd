@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="empresa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="direccion_envio">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"></xs:element>
+                            <xs:element name="apellidos" type="xs:string"></xs:element>
+                            <xs:element name="calle" type="xs:string"></xs:element>
+                            <xs:element name="numero" type="xs:integer"></xs:element>
+                            <xs:element name="numero_de_piso" type="xs:integer" minOccurs="0"></xs:element>
+                            <xs:element name="letra" type="xs:string" minOccurs="0"></xs:element>
+                            <xs:element name="codigo_postal" type="xs:integer"></xs:element>
+                            <xs:element name="ciudad" type="xs:string"></xs:element>
+                            <xs:element name="comunidad_autonoma" type="xs:string"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="direccion_facturacion">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"></xs:element>
+                            <xs:element name="apellidos" type="xs:string"></xs:element>
+                            <xs:element name="calle" type="xs:string"></xs:element>
+                            <xs:element name="numero" type="xs:integer"></xs:element>
+                            <xs:element name="numero_de_piso" type="xs:integer" minOccurs="0"></xs:element>
+                            <xs:element name="letra" type="xs:string" minOccurs="0"></xs:element>
+                            <xs:element name="codigo_postal" type="xs:integer"></xs:element>
+                            <xs:element name="ciudad" type="xs:string"></xs:element>
+                            <xs:element name="comunidad_autonoma" type="xs:string"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="productos_pedido">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ID" type="xs:integer"></xs:element>
+                            <xs:element name="nombre_producto" type="xs:string"></xs:element>
+                            <xs:element name="cantidad" type="xs:integer"></xs:element>
+                            <xs:element name="precio" type="xs:decimal"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

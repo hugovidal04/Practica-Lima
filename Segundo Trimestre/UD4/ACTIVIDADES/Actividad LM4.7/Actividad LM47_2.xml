@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Actividad%20LM47_2.xsd">
+    <direccion_envio>
+        <nombre>Paco</nombre>
+        <apellidos>Blanco</apellidos>
+        <calle>D</calle>
+        <numero>3</numero>
+        <numero_de_piso>2</numero_de_piso>
+        <letra>G</letra>
+        <codigo_postal>30200</codigo_postal>
+        <ciudad>Madrid</ciudad>
+        <comunidad_autonoma>Madrid</comunidad_autonoma>
+    </direccion_envio>
+    <direccion_facturacion>
+        <nombre>Pablo</nombre>
+        <apellidos>Varela</apellidos>
+        <calle>A</calle>
+        <numero>8</numero>
+        <numero_de_piso>1</numero_de_piso>
+        <letra>D</letra>
+        <codigo_postal>30100</codigo_postal>
+        <ciudad>Madrid</ciudad>
+        <comunidad_autonoma>Madrid</comunidad_autonoma>
+    </direccion_facturacion>
+    <productos_pedido>
+        <ID>12</ID>
+        <nombre_producto>Lápiz</nombre_producto>
+        <cantidad>30</cantidad>
+        <precio>5.00</precio>
+    </productos_pedido>
+</empresa>
