@@ -1,0 +1,44 @@
+a)  Extraer todos los elementos <producto>.
+//producto
+
+b)  Extraer todos los elementos <talla> del producto con nombre Camiseta.
+
+
+c)  Precio del producto con nombre Zapatos. 
+
+
+d)  Todos los elementos <nombre> de los productos cuyo precio es mayor o igual a 15. 
+
+
+e)  Todos los elementos <talla> de todos los productos. 
+
+
+f) El nombre del producto con el precio más alto. 
+
+
+g)  El precio promedio de todos los productos. 
+
+
+h)  Todos los nombres de los productos cuyo nombre comienza por P. 
+
+
+i) Todos los elementos <nombre> de los productos cuya descripción contiene la palabra deportiva. 
+
+
+j) Todos los elementos <talla> de los productos con precio menor a 20. 
+
+
+k)  Todos los elementos <producto> que tengan el atributo categoría igual a ropa. 
+
+
+l) El precio del producto con nombre Gorra en dólares (USD). 
+
+
+m) El nombre de los productos cuyo precio esté en euros (EUR). 
+
+
+n)  Todas las tallas de los productos con precio mayor a 20 dólares (USD). 
+
+
+o)  El nombre y la descripción de los productos con precio en dólares (USD).
+
