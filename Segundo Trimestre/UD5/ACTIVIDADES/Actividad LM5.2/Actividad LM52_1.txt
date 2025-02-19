@@ -9,7 +9,7 @@ c) Suma de las edades de los pacientes atendidos por Pedro Martínez.
 /clinica_veterinaria[consultas/consulta/veterinario="Pedro Martínez"]/pacientes/sum(paciente/edad)
 
 d) Todos los motivos de consulta de los pacientes de la especie Gato. 
-
+/clinica_veterinaria/consultas/consulta[paciente=/clinica_veterinaria/pacientes/paciente[especie="Gato"]/nombre]/motivo
 
 e) El último tratamiento realizado a la mascota de María García, 
 suponiendo que los datos están ordenados.
