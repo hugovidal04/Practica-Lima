@@ -1,0 +1,16 @@
+a)  Nombre de los módulos del ciclo Sistemas Microinformáticos y Redes 
+(en la expresión final no deben aparecer las siglas SMR). 
+//modulo[ciclo="SMR"]/nombre
+
+b)  Nombre completo de los ciclos que incluyen el módulo Lenguajes de marcas y 
+sistemas de gestión de información. 
+//ciclo[@id=//modulo[nombre="Lenguajes de marcas y sistemas de gestión de información"]/ciclo]/nombre
+
+c)  Nombre de los módulos de ciclos de Grado Superior. 
+//modulo[ciclo=//ciclo[grado="Superior"]/@id]/nombre
+
+d)  Nombre de los módulos de ciclos cuyo título se aprobó en 2008. 
+//modulo[ciclo=//ciclo[decretoTitulo/@anho="2008"]/@id]/nombre
+
+e)  Grado de los ciclos con módulos de segundo curso. 
+//ciclo[@id=//modulo[curso="2"]/ciclo]/grado
