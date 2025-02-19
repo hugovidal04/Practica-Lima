@@ -2,43 +2,43 @@ a)  Extraer todos los elementos <producto>.
 //producto
 
 b)  Extraer todos los elementos <talla> del producto con nombre Camiseta.
-
+/productos/producto[nombre="Camiseta"]/tallas/talla
 
 c)  Precio del producto con nombre Zapatos. 
-
+/productos/producto[nombre="Zapatos"]/precio
 
 d)  Todos los elementos <nombre> de los productos cuyo precio es mayor o igual a 15. 
-
+//producto[precio<=15]//nombre
 
 e)  Todos los elementos <talla> de todos los productos. 
-
+//producto/tallas/talla
 
 f) El nombre del producto con el precio más alto. 
-
+/productos/producto[precio = max(//precio)]/nombre
 
 g)  El precio promedio de todos los productos. 
-
+avg(//precio)
 
 h)  Todos los nombres de los productos cuyo nombre comienza por P. 
-
+//producto[contains(nombre, "p")]//nombre
 
 i) Todos los elementos <nombre> de los productos cuya descripción contiene la palabra deportiva. 
-
+//producto[contains(descripcion, "deportiva")]//nombre
 
 j) Todos los elementos <talla> de los productos con precio menor a 20. 
-
+//producto[precio<20]/tallas/talla
 
 k)  Todos los elementos <producto> que tengan el atributo categoría igual a ropa. 
-
+/productos/producto[@categoria="ropa"]
 
 l) El precio del producto con nombre Gorra en dólares (USD). 
-
+/productos/producto[nombre="Gorra"]/precio/text()
 
 m) El nombre de los productos cuyo precio esté en euros (EUR). 
-
+/productos/producto[precio[@divisa="EUR"]]/nombre
 
 n)  Todas las tallas de los productos con precio mayor a 20 dólares (USD). 
-
+/productos/producto[precio > 20]/tallas/talla
 
 o)  El nombre y la descripción de los productos con precio en dólares (USD).
-
+/productos/producto[precio/@divisa="USD"]/nombre, /productos/producto[precio/@divisa="USD"]/descripcion 

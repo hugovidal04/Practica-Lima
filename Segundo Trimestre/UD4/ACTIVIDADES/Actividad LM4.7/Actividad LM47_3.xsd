@@ -2,8 +2,8 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="horario">
         <xs:complexType>
-            <xs:sequence>
-                <xs:element name="clase" maxOccurs="unbounded">
+            <xs:all>
+                <xs:element name="clase" maxOccurs="1">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="dia">
@@ -62,7 +62,7 @@
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-            </xs:sequence>
+            </xs:all>
         </xs:complexType>
     </xs:element>
 </xs:schema>
