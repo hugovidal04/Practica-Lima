@@ -1,0 +1,16 @@
+a) Todos los teléfonos, tanto de los empleados como de los clientes. 
+//telefono
+
+b) Nombre y especie de los pacientes propiedad de Juan Pérez. 
+//paciente[propietario/nombre="Juan Pérez"]/nombre,
+//paciente[propietario/nombre="Juan Pérez"]/especie
+
+c) Suma de las edades de los pacientes atendidos por Pedro Martínez.
+/clinica_veterinaria[consultas/consulta/veterinario="Pedro Martínez"]/pacientes/sum(paciente/edad)
+
+d) Todos los motivos de consulta de los pacientes de la especie Gato. 
+
+
+e) El último tratamiento realizado a la mascota de María García, 
+suponiendo que los datos están ordenados.
+

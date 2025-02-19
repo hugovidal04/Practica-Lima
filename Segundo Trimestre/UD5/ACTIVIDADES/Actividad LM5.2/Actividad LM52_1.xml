@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ 
+<clinica_veterinaria> 
+    <pacientes> 
+        <paciente> 
+            <nombre>Milo</nombre> 
+            <especie>Gato</especie> 
+            <raza>Siames</raza> 
+            <edad>3</edad> 
+            <propietario> 
+                <nombre>Juan Pérez</nombre> 
+                <telefono>123-456-789</telefono> 
+            </propietario> 
+        </paciente> 
+        <paciente> 
+            <nombre>Rex</nombre> 
+            <especie>Perro</especie> 
+            <raza>Pinsher Miniatura</raza> 
+            <edad>5</edad> 
+            <propietario> 
+                <nombre>María García</nombre> 
+                <telefono>987-654-321</telefono> 
+            </propietario> 
+        </paciente> 
+    </pacientes> 
+    <empleados> 
+        <veterinario> 
+            <nombre>Pedro Martínez</nombre> 
+            <especialidad>Caninos</especialidad> 
+            <telefono>555-123-456</telefono> 
+        </veterinario> 
+        <asistente> 
+            <nombre>Laura González</nombre> 
+            <telefono>555-987-654</telefono> 
+        </asistente> 
+    </empleados> 
+    <consultas> 
+        <consulta> 
+            <fecha>2024-02-14</fecha> 
+            <paciente>Milo</paciente> 
+            <veterinario>Pedro Martínez</veterinario> 
+            <motivo>Control anual</motivo> 
+            <tratamiento>Vacunación</tratamiento> 
+        </consulta> 
+        <consulta> 
+            <fecha>2024-02-10</fecha> 
+            <paciente>Rex</paciente> 
+            <veterinario>Pedro Martínez</veterinario> 
+            <motivo>Desparasitación</motivo> 
+            <tratamiento>Medicación</tratamiento> 
+        </consulta> 
+    </consultas> 
+</clinica_veterinaria>
