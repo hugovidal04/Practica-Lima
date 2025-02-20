@@ -28,20 +28,33 @@ where contains($a/comienzo, '/1/')
 return <baile>{data($a/nombre)} {" "} {data($a/comienzo)}</baile>
 
 6. Los nombres de los profesores y la sala en la que dan clase, ordenados por sala. 
-
+for $a in //baile
+order by /$a/sala descending 
+return concat(data($a/profesor), " ", data($a/sala))
 
 7. Los nombres de los profesores, eliminando los repetidos y acompañando cada 
 nombre con todas las salas en la que da clase. Ordenar por nombre. 
-
+for $a in //baile 
+order by $a/nombre
+return concat(distinct-values($a/profesor), ' ', $a/sala)
 
 8. La media de los precios de todos los bailes. 
-
+let $a := //baile/precio
+return avg($a)
 
 9. La suma de los precios de los bailes de la sala 1. 
-
+sum(
+  for $a in //baile
+  where $a/sala='1'
+  return $a/precio
+)
 
 10. La cantidad de plazas ofertadas por el profesor Jesus Lozano. 
-
+sum(
+  for $a in //baile
+  where $a/profesor='Jesus Lozano'
+  return $a/plazas
+)
 
 11. El dinero que ganaría la profesora Laura Mendiola si se completaran todas las 
 plazas de su baile, sabiendo que solo tiene un baile. 
