@@ -12,7 +12,5 @@
 <!ELEMENT titulo (#PCDATA)>
 <!ATTLIST titulo genero CDATA #REQUIRED>
 <!ELEMENT desarrollador (#PCDATA)>
-<!ELEMENT lanzamiento (#PCDATA)>
-<!ELEMENT ventas (#PCDATA)>
 <!ELEMENT plataformas (plataforma+)>
 <!ELEMENT plataforma (#PCDATA)>
