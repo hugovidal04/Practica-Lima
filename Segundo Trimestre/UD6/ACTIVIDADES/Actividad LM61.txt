@@ -1,0 +1,66 @@
+1. Cada uno de los nombres de los bailes con la etiqueta <losbailes>. 
+<losbailes>{
+  for $a in //nombre
+  return $a
+}</losbailes
+
+2. Los nombres de los bailes seguidos con el número de plazas entre paréntesis, 
+ambos dentro de la misma etiqueta <losbailes>. 
+<losbailes>{
+  for $a in //baile
+  return <baile>{concat(data($a/nombre), " (", data($a/plazas), ")")}</baile>
+}</losbailes>
+
+3. Los nombres de los bailes cuyo precio sea mayor de 30. 
+for $a in //baile
+where $a/precio > 30
+return data($a/nombre)
+
+4. Los nombres de los bailes cuyo precio sea mayor de 30 y la moneda euro. 
+for $a in //baile
+where $a/precio > 30 and $a/precio/@moneda="euro"
+return $a/nombre
+
+5. Los nombres y la fecha de comienzo de los bailes que comiencen el mes de enero 
+(utiliza para buscarlo la cadena de texto /1/). 
+for $a in //baile
+where contains($a/comienzo, '/1/')
+return <baile>{data($a/nombre)} {" "} {data($a/comienzo)}</baile>
+
+6. Los nombres de los profesores y la sala en la que dan clase, ordenados por sala. 
+
+
+7. Los nombres de los profesores, eliminando los repetidos y acompañando cada 
+nombre con todas las salas en la que da clase. Ordenar por nombre. 
+
+
+8. La media de los precios de todos los bailes. 
+
+
+9. La suma de los precios de los bailes de la sala 1. 
+
+
+10. La cantidad de plazas ofertadas por el profesor Jesus Lozano. 
+
+
+11. El dinero que ganaría la profesora Laura Mendiola si se completaran todas las 
+plazas de su baile, sabiendo que solo tiene un baile. 
+
+
+12. El dinero que ganaría el profesor Jesus Lozano si se completaran todas las plazas 
+de su baile, pero mostrando el beneficio de cada baile por separado. 
+
+
+13. Mostrar el dinero que ganaría la profesora Laura (no conocemos su apellido) si se 
+completaran todas las plazas de su baile. 
+
+
+14. El nombre del baile, su precio y el precio con un descuento del 15% para familias 
+numerosas. Ordenar por el nombre del baile. 
+
+
+15. Todos los datos de cada baile excepto la fecha de comienzo y de fin. 
+
+
+16. En una tabla de HTML, los nombres de los bailes y su profesor, cada uno en una 
+fila.
