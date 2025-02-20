@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ 
+<informacion_juegos
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Repaso_12.xsd"> 
+    <sistemas> 
+        <sistema> 
+            <nombre>Wii U</nombre> 
+            <lanzamiento>2012</lanzamiento> 
+            <ventas unidad="M">13.56</ventas> 
+            <companhia>Nintendo</companhia> 
+        </sistema> 
+        <sistema> 
+            <nombre>Nintendo Switch</nombre>
+            <lanzamiento>2017</lanzamiento> 
+            <ventas unidad="M">138.04</ventas> 
+            <companhia>Nintendo</companhia> 
+        </sistema> 
+        <sistema> 
+            <nombre>PlayStation 3</nombre> 
+            <lanzamiento>2006</lanzamiento> 
+            <ventas unidad="M">87.4</ventas> 
+            <companhia>Sony</companhia> 
+        </sistema> 
+        <sistema> 
+            <nombre>PlayStation 4</nombre> 
+            <lanzamiento>2013</lanzamiento> 
+            <ventas unidad="M">115.9</ventas> 
+            <companhia>Sony</companhia> 
+        </sistema> 
+        <sistema> 
+            <nombre>PlayStation 5</nombre> 
+            <lanzamiento>2020</lanzamiento> 
+            <ventas unidad="M">54.47</ventas> 
+            <companhia>Sony</companhia> 
+        </sistema> 
+        <sistema> 
+            <nombre>PlayStation Vita</nombre> 
+            <lanzamiento>2011</lanzamiento> 
+            <ventas unidad="M">15</ventas> 
+            <companhia>Sony</companhia> 
+        </sistema> 
+        <sistema> 
+            <nombre>Xbox 360</nombre> 
+            <lanzamiento>2005</lanzamiento> 
+            <ventas unidad="M">84</ventas> 
+            <companhia>Microsoft</companhia> 
+        </sistema> 
+        <sistema> 
+            <nombre>Xbox One</nombre> 
+            <lanzamiento>2013</lanzamiento> 
+            <ventas unidad="M">51</ventas> 
+            <companhia>Microsoft</companhia> 
+        </sistema> 
+        <sistema> 
+            <nombre>Xbox Series</nombre> 
+            <lanzamiento>2020</lanzamiento> 
+            <ventas unidad="M">27.72</ventas> 
+            <companhia>Microsoft</companhia> 
+        </sistema> 
+        <sistema> 
+            <nombre>PC</nombre> 
+            <lanzamiento>1981</lanzamiento> 
+            <ventas unidad="M">Incalculables</ventas> 
+            <companhia>Varios</companhia> 
+        </sistema> 
+    </sistemas> 
+ 
+    <videojuegos> 
+        <videojuego id="v001"> 
+            <titulo genero="Aventura">The Legend of Zelda: Breath of the Wild</titulo> 
+            <desarrollador>Nintendo</desarrollador> 
+            <lanzamiento>2017</lanzamiento> 
+            <ventas unidad="M">23.20</ventas> 
+            <plataformas> 
+                <plataforma>Nintendo Switch</plataforma> 
+                <plataforma>Wii U</plataforma> 
+            </plataformas> 
+        </videojuego> 
+        <videojuego id="v002"> 
+            <titulo genero="Acción, Aventura">Grand Theft Auto V</titulo> 
+            <desarrollador>Rockstar Games</desarrollador> 
+            <lanzamiento>2013</lanzamiento> 
+            <ventas unidad="M">160</ventas> 
+            <plataformas> 
+                <plataforma>PlayStation 3</plataforma> 
+                <plataforma>PlayStation 4</plataforma> 
+                <plataforma>Xbox 360</plataforma> 
+                <plataforma>Xbox One</plataforma> 
+                <plataforma>PC</plataforma> 
+            </plataformas> 
+        </videojuego> 
+        <videojuego id="v003"> 
+            <titulo genero="Sandbox, RPG">Yakuza: Like a Dragon</titulo> 
+            <desarrollador>Sega</desarrollador> 
+            <lanzamiento>2020</lanzamiento> 
+            <ventas unidad="M">1.8</ventas> 
+            <plataformas> 
+                <plataforma>PlayStation 4</plataforma> 
+                <plataforma>PlayStation 5</plataforma> 
+                <plataforma>Xbox One</plataforma> 
+                <plataforma>Xbox Series</plataforma> 
+                <plataforma>PC</plataforma> 
+            </plataformas> 
+        </videojuego> 
+        <videojuego id="v004"> 
+            <titulo genero="Action RPG">Bloodborne</titulo> 
+            <desarrollador>FromSoftware</desarrollador> 
+            <lanzamiento>2015</lanzamiento> 
+            <ventas unidad="M">3</ventas> 
+            <plataformas> 
+                <plataforma>PlayStation 4</plataforma> 
+            </plataformas> 
+        </videojuego> 
+        <videojuego id="v005"> 
+            <titulo genero="RPG">Persona 4 Golden</titulo> 
+            <desarrollador>Atlus</desarrollador> 
+            <lanzamiento>2012</lanzamiento> 
+            <ventas unidad="M">1.5</ventas> 
+            <plataformas> 
+                <plataforma>PlayStation Vita</plataforma> 
+                <plataforma>PC</plataforma> 
+            </plataformas> 
+        </videojuego> 
+    </videojuegos> 
+</informacion_juegos>
