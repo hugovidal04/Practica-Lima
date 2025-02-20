@@ -1,0 +1,18 @@
+<!ELEMENT informacion_juegos (sistemas, videojuegos)>
+<!ELEMENT sistemas (sistema+)>
+<!ELEMENT sistema (nombre, lanzamiento, ventas, companhia)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT lanzamiento (#PCDATA)>
+<!ELEMENT ventas (#PCDATA)>
+<!ATTLIST ventas unidad CDATA #REQUIRED>
+<!ELEMENT companhia (#PCDATA)>
+<!ELEMENT videojuegos (videojuego+)>
+<!ATTLIST videojuego id ID #REQUIRED>
+<!ELEMENT videojuego (titulo, desarrollador, lanzamiento, ventas, plataformas)>
+<!ELEMENT titulo (#PCDATA)>
+<!ATTLIST titulo genero CDATA #REQUIRED>
+<!ELEMENT desarrollador (#PCDATA)>
+<!ELEMENT lanzamiento (#PCDATA)>
+<!ELEMENT ventas (#PCDATA)>
+<!ELEMENT plataformas (plataforma+)>
+<!ELEMENT plataforma (#PCDATA)>
