@@ -58,22 +58,56 @@ sum(
 
 11. El dinero que ganaría la profesora Laura Mendiola si se completaran todas las 
 plazas de su baile, sabiendo que solo tiene un baile. 
-
+for $a in //baile
+where $a/profesor='Laura Mendiola'
+let $plazas := xs:integer($a/plazas)
+let $dinero := xs:decimal($a/precio)
+return <ganacia>{$plazas * $dinero}</ganacia>
 
 12. El dinero que ganaría el profesor Jesus Lozano si se completaran todas las plazas 
 de su baile, pero mostrando el beneficio de cada baile por separado. 
-
+for $a in //baile
+where $a/profesor='Jesus Lozano'
+let $dinero1 := xs:decimal($a/precio)
+let $plazas1 := xs:integer($a/plazas)
+return <ganacias>{$dinero1 * $plazas1}</ganacias>
 
 13. Mostrar el dinero que ganaría la profesora Laura (no conocemos su apellido) si se 
 completaran todas las plazas de su baile. 
-
+for $a in //baile
+where contains($a/profesor, 'Laura')
+let $dinero := xs:decimal($a/precio)
+let $plazas := xs:integer($a/plazas)
+return $dinero * $plazas
 
 14. El nombre del baile, su precio y el precio con un descuento del 15% para familias 
 numerosas. Ordenar por el nombre del baile. 
-
+for $a in //baile 
+let $descuento := xs:decimal($a/precio * 0.15)
+let $precioDescuento := xs:decimal($a/precio - $descuento) 
+order by $a/nombre descending
+return <bailes>{$a/nombre, $a/precio, $precioDescuento }</bailes>
 
 15. Todos los datos de cada baile excepto la fecha de comienzo y de fin. 
-
+for $baile in //baile
+return
+  <baile>
+    { $baile/* except $baile/(comienzo | fin) }
+  </baile>
 
 16. En una tabla de HTML, los nombres de los bailes y su profesor, cada uno en una 
 fila.
+<table>
+  <tr>
+    <th>Nombre del Baile</th>
+    <th>Profesor</th>
+  </tr>
+  {
+    for $baile in //baile
+    return
+      <tr>
+        <td>{ $baile/nombre/text() }</td>
+        <td>{ $baile/profesor/text() }</td>
+      </tr>
+  }
+</table>
