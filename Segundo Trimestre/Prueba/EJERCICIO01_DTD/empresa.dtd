@@ -1,0 +1,31 @@
+<!ELEMENT empresa (clientes, piezas, ventas)>
+<!ELEMENT clientes (cliente+)>
+<!ELEMENT cliente (nombre, apellidos, email, telefono, direccion)>
+<!ATTLIST cliente id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST email tipo CDATA #REQUIRED>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT direccion (calle, ciudad, pais, codigoPostal)>
+<!ATTLIST direccion tipo CDATA #REQUIRED>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT codigoPostal (#PCDATA)>
+<!ELEMENT piezas (pieza+)>
+<!ELEMENT pieza (nombre, descripcion, precio, stock)>
+<!ATTLIST pieza id ID #REQUIRED>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio moneda CDATA #REQUIRED>
+<!ELEMENT stock (#PCDATA)>
+<!ELEMENT ventas (venta+)>
+<!ELEMENT venta (clienteId, fecha, detalles)>
+<!ATTLIST venta id ID #REQUIRED>
+<!ELEMENT clienteId (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT detalles (detalle+)>
+<!ELEMENT detalle (piezaId, cantidad)>
+<!ELEMENT piezaId (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>

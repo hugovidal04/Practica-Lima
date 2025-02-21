@@ -1,0 +1,30 @@
+a) Obtener todas las ventas realizadas en enero 
+for $a in //venta
+where contains($a/fecha, "01")
+return $a
+ 
+b) Obtener el nombre y el correo de cada cliente, sin el atributo tipo 
+for $a in //cliente
+where $a/direccion[@tipo="domicilio"]
+return <cliente>{$a/nombre, <email>{data($a/email)}</email>}</cliente>
+
+c) Obtener el nombre y la dirección de cada cliente, siempre y cuando el tipo de dirección sea 
+"domicilio" 
+for $a in //cliente
+where $a/direccion[@tipo="domicilio"]
+return <cliente>{$a/nombre, $a/direccion}</cliente>
+
+d) Obtener el precio total en euros de los productos en stock cuyo precio esté en euros 
+for $a in //pieza
+where $a/precio[@moneda="€"]
+let $precioTotal := $a/precio * $a/stock
+return concat($precioTotal, " ", $a/precio/@moneda)
+
+e) Obtener el valor total en euros de los productos en stock en la tienda, teniendo en cuenta 
+que un euro equivale a 1,09 dólares 
+for $a in //pieza
+let $eurosADolares := 1.09 * $a/precio[@moneda="$"]
+let $pieza1 := $a/precio[@moneda="€"] * $a/stock
+let $pieza2 := $eurosADolares * $a/stock
+let $sumaDePiezas := $pieza1 + $pieza2
+return $sumaDePiezas

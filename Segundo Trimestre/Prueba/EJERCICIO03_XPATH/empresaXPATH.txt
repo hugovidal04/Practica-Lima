@@ -1,0 +1,16 @@
+a)  Obtener el ID de las ventas realizadas en 2024 
+/ventas/venta[fecha[contains(fecha, 2024)]]/@id
+
+b)  Obtener el nombre de todos los clientes que tienen un correo electrónico de tipo "empresa" 
+//cliente[email[@tipo="empresa"]]/nombre
+
+c) Obtener el nombre del cliente que realizó la última venta (supondremos que el fichero está 
+ordenado) 
+
+ 
+d)  Obtener el nombre de las piezas que tienen un precio mayor a 200 euros 
+//pieza[precio>200]/nombre
+ 
+ 
+e)  Obtener todas las piezas compradas por el cliente con email juanperez@email.com, sin 
+que se repita ninguna 

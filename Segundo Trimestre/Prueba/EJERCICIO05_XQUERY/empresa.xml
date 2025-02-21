@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<empresa>
+    <clientes>
+        <cliente id="C001">
+            <nombre>Juan</nombre>
+            <apellidos>Pérez</apellidos>
+            <email tipo="personal">juanperez@email.com</email>
+            <telefono>987987987</telefono>
+            <direccion tipo="domicilio">
+                <calle>Calle Falsa 123</calle>
+                <ciudad>Pontevedra</ciudad>
+                <pais>España</pais>
+                <codigoPostal>36001</codigoPostal>
+            </direccion>
+        </cliente>
+        <cliente id="C002">
+            <nombre>Maria</nombre>
+            <apellidos>López</apellidos>
+            <email tipo="empresa">marialopez@email.com</email>
+            <telefono>987654321</telefono>
+            <direccion tipo="domicilio">
+                <calle>Avenida del Progreso 321</calle>
+                <ciudad>Santiago</ciudad>
+                <pais>España</pais>
+                <codigoPostal>15995</codigoPostal>
+            </direccion>
+        </cliente>
+    </clientes>
+
+    <piezas>
+        <pieza id="P001">
+            <nombre>Tarjeta Gráfica XYZ 123</nombre>
+            <descripcion>Tarjeta gráfica de alto rendimiento para gaming y diseño gráfico</descripcion>
+            <precio moneda="€">299.99</precio>
+            <stock>10</stock>
+        </pieza>
+        <pieza id="P002">
+            <nombre>Disco Duro SSD 1TB Marca ABC</nombre>
+            <descripcion>Disco duro SSD de 1TB, velocidad de lectura/escritura superior</descripcion>
+            <precio moneda="$">109.99</precio>
+            <stock>15</stock>
+        </pieza>
+    </piezas>
+
+    <ventas>
+        <venta id="V001">
+            <clienteId>C001</clienteId>
+            <fecha>2024-01-15</fecha>
+            <detalles>
+                <detalle>
+                    <piezaId>P001</piezaId>
+                    <cantidad>1</cantidad>
+                </detalle>
+                <detalle>
+                    <piezaId>P002</piezaId>
+                    <cantidad>2</cantidad>
+                </detalle>
+            </detalles>
+        </venta>
+        <venta id="V002">
+            <clienteId>C002</clienteId>
+            <fecha>2024-02-20</fecha>
+            <detalles>
+                <detalle>
+                    <piezaId>P002</piezaId>
+                    <cantidad>1</cantidad>
+                </detalle>
+            </detalles>
+        </venta>
+    </ventas>
+</empresa>
