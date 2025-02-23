@@ -1,0 +1,25 @@
+a) Calcular la cantidad total de unidades vendidas de todos los videojuegos. Asumiremos que 
+las unidades de todos los videojuegos están en millones (M): 
+sum(
+  for $a in //videojuego
+  return $a/ventas
+)
+ 
+b) Seleccionar los títulos de los videojuegos que están disponibles en PlayStation 4: 
+for $a in //videojuego
+where $a/plataformas/plataforma="PlayStation 4"
+return $a/titulo
+
+c) Seleccionar el título y el desarrollador de los videojuegos lanzados antes o durante 2015, 
+cada uno dentro de una etiqueta <videojuego>: 
+for $a in //videojuego
+where $a/lanzamiento >= 2015
+return <videojuego>{data($a/titulo)}, {data($a/desarrollador)}</videojuego>
+ 
+d) Selecciona el título y el año de lanzamiento del videojuego más antiguo, mostrándolo en 
+una estructura <juego><nombre></nombre><anho></anho></juego>: 
+
+ 
+e) Selecciona los sistemas de la compañía Sony, ordenándolos por fecha de lanzamiento: 
+  
+ 
