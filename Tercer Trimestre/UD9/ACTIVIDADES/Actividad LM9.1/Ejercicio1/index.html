@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        variable = prompt ('Esra página dice Escribe una orden')
+        let numero;
+        let salida = 'salir'
+        while (true) {
+            numero = prompt('Esta página dice');
+
+            if (numero == salida) {
+                break;
+            }
+
+            if (!isNaN(numero) && numero !== "") {
+                alert('Es un número');
+            } else {
+                alert(numero + ' No es un número');
+            }
+        }
     </script>
 </head>
+
 <body>
-    
+
 </body>
+
 </html>
