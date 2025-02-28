@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let dni;
+        const letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F',
+            'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E']
+        while (true) {
+            dni = prompt('Esta página dice:')
+
+            if (dni === null) {
+                break;
+            }
+
+            if (/^\d{8}$/.test(dni)) {
+                const resto = dni % 23;
+                const letra = letras[resto];
+                alert(letra)
+            } else {
+                alert('DNI no válido')
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
